@@ -1,0 +1,30 @@
+* {
+    padding: 10px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex; 
+}
+
+.button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #eaeaea;
+    color: #055c7f;
+    border: 6px solid #12b9fb;
+    border-radius: 26px;
+    font-size: 24px;
+    padding: 15px 48px; 
+    transition: all 0.4s ease;
+}
+
+.button:hover {
+    text-decoration: none; 
+    background-color: #40a5cd;
+    color: #dae872;
+    border-color: #1b2082;
+}
